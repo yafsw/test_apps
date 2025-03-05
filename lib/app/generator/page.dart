@@ -36,14 +36,14 @@ class _GeneratorPageState extends State<GeneratorPage> {
                 text: "Masukan angka untuk menghasilkan bilangan prima",
                 textAlign: TextAlign.left,
               ),
-          TextFormField(
-            controller: numberController,
-            keyboardType: TextInputType.number,
-            inputFormatters: [FilteringTextInputFormatter.digitsOnly],
-            decoration: InputDecoration(
-              labelText: "Input Angka",
-            ),
-          ),
+              TextFormField(
+                controller: numberController,
+                keyboardType: TextInputType.number,
+                inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+                decoration: InputDecoration(
+                  labelText: "Input Angka",
+                ),
+              ),
             ],
           ),
           ButtonWidget(
